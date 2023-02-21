@@ -1,20 +1,19 @@
-#include "unistd.h"
-
+#include "main.h"
 
 /**
- * _putchar - Prints "_putchar c" followed by a new line to stdout.
- *@c: The character to print
+ * main - Prints "_putchar" followed by a new line.
  * Return: Always 0 (successful)
  */
-int _putchar(char c)
+int main(void)
 {
-	_putchar('Q');
-	_putchar('A');
-	_putchar('R');
-	_putchar('L');
-	_putchar('I');
-	_putchar('F');
-	_putchar('A');
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
