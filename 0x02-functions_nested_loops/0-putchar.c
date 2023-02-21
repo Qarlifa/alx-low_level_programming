@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "putchar.c"
 /**
  * main - Prints "_putchar" followed by a new line.
