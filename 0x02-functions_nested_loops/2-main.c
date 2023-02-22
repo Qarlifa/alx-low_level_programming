@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code for function that makes 10 times the alphabet.
+ * main - Entry point
+ *
+ *Description: check the code for function that makes 10 times the alphabet.
  *
  * Return: Always 0.
  */
