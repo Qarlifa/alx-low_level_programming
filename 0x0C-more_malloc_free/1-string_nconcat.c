@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "main.h
+#include "main.h"
 
 /*
 * string_nconcat - concatenates n bytes of a string to another stri
@@ -9,7 +9,7 @@
 * Return: pointer to the resulting string
 */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
 	char *s;
@@ -46,11 +46,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 
 		s[i++] = s2[j++];
 
-	while (n >= len2 && i < (len1 + len2)
+	while (n >= len2 && i < (len1 + len2))
 
 			s[i++] = s2[j++];
 
 			s[i] = '\0';
 
 			return (s);
+
 }
